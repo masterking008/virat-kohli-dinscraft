@@ -36,9 +36,10 @@ export default function Nav() {
     if (!open) {
       tl.play();
     } else {
-      tl.reverse().eventCallback("onReverseComplete", () =>
-        gsap.set(overlayRef.current, { display: "none" })
-      );
+      tl.eventCallback("onReverseComplete", () => {
+        gsap.set(overlayRef.current, { display: "none" });
+      });
+      tl.reverse();
     }
     setOpen(o => !o);
   };
