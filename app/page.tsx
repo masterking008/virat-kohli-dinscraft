@@ -3,6 +3,7 @@ import Nav          from "./components/Nav";
 import Hero         from "./components/Hero";
 import Marquee      from "./components/Marquee";
 import Message      from "./components/Message";
+import Moments      from "./components/Moments";
 import Gallery      from "./components/Gallery";
 import CenturyWall  from "./components/CenturyWall";
 import Partnerships from "./components/Partnerships";
@@ -20,6 +21,7 @@ export default function Home() {
           <Hero />
         </div>
         <Message />
+        <Moments />
         <Gallery />
         <CenturyWall />
         <Partnerships />

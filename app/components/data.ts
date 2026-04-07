@@ -29,6 +29,18 @@ export const CENTURIES = [
   { num: "100th", year: "2023", vs: "Afghanistan",  format: "ODI"  },
 ];
 
+export const MOMENTS = [
+  { img: "https://picsum.photos/seed/vk-bat1/800/1000",  caption: "The Cover Drive",      sub: "Adelaide · 2014",      w: 28, h: 72, top: 8  },
+  { img: "https://picsum.photos/seed/vk-run2/700/900",   caption: "Chase Master",          sub: "Hobart · 2012",        w: 22, h: 60, top: 22 },
+  { img: "https://picsum.photos/seed/vk-cel3/900/1100",  caption: "100th Century",         sub: "Mirpur · 2012",       w: 32, h: 80, top: 4  },
+  { img: "https://picsum.photos/seed/vk-wc4/750/950",    caption: "World Cup Glory",       sub: "Mumbai · 2011",       w: 24, h: 65, top: 18 },
+  { img: "https://picsum.photos/seed/vk-eng5/800/1050",  caption: "England Series",        sub: "Lord's · 2018",       w: 30, h: 75, top: 6  },
+  { img: "https://picsum.photos/seed/vk-ipl6/700/880",   caption: "IPL Dominance",         sub: "Bengaluru · 2016",    w: 20, h: 58, top: 26 },
+  { img: "https://picsum.photos/seed/vk-sa7/850/1000",   caption: "South Africa Tour",     sub: "Cape Town · 2018",    w: 26, h: 68, top: 10 },
+  { img: "https://picsum.photos/seed/vk-t208/780/960",   caption: "T20 Masterclass",       sub: "Mohali · 2016",       w: 23, h: 62, top: 20 },
+  { img: "https://picsum.photos/seed/vk-wc239/900/1100", caption: "WC 2023 Final",         sub: "Ahmedabad · 2023",    w: 34, h: 82, top: 2  },
+];
+
 export const PARTNERS = [
   { name: "MRF Tyres",   since: 2010 },
   { name: "Puma",        since: 2013 },

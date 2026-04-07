@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import LenisProvider from "./components/LenisProvider";
 import { Bebas_Neue, Instrument_Serif, DM_Sans } from "next/font/google";
 import "./globals.css";
 
@@ -39,7 +40,7 @@ export default function RootLayout({
       lang="en"
       className={`${bebasNeue.variable} ${instrumentSerif.variable} ${dmSans.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col"><LenisProvider>{children}</LenisProvider></body>
     </html>
   );
 }
